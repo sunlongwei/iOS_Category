@@ -7,8 +7,13 @@
 //
 
 #import "ViewController.h"
+#import "NSArray+Helper.h"
+#import "NSDictionary+Helper.h"
 
 @interface ViewController ()
+
+@property (weak, nonatomic) IBOutlet UITextField *sourceTF;
+@property (weak, nonatomic) IBOutlet UITextField *resultTF;
 
 @end
 
@@ -17,13 +22,28 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    
+    NSArray *testArr = @[@"1", @"22", @"333", @"4444"];
+    NSString *str = [testArr toJsonString];
+    NSLog(@"666_SunDePrint_999:%@", str);
+    
+    
+    NSDictionary *testDict = @{@"testArr" : testArr};
+    NSString *str2 = [testDict toJsonString];
+    NSLog(@"666_SunDePrint_999:%@", str2);
+    
 }
 
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
+- (IBAction)resultBtn:(UIButton *)sender {
+    
+    
+    
 }
+
+
 
 
 @end

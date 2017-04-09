@@ -15,6 +15,10 @@
 		652966351E99258C003E8409 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 652966331E99258C003E8409 /* LaunchScreen.storyboard */; };
 		652966401E99258D003E8409 /* SunD_categoryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6529663F1E99258D003E8409 /* SunD_categoryTests.m */; };
 		6529664B1E99258D003E8409 /* SunD_categoryUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6529664A1E99258D003E8409 /* SunD_categoryUITests.m */; };
+		6529665D1E9932E2003E8409 /* NSString+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6529665C1E9932E2003E8409 /* NSString+Helper.m */; };
+		652966601E99339B003E8409 /* NSArray+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 6529665F1E99339B003E8409 /* NSArray+Helper.m */; };
+		652966631E9933A9003E8409 /* NSDictionary+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 652966621E9933A9003E8409 /* NSDictionary+Helper.m */; };
+		652966661E99C77B003E8409 /* UILabel+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 652966651E99C77B003E8409 /* UILabel+Helper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		652966461E99258D003E8409 /* SunD_categoryUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SunD_categoryUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6529664A1E99258D003E8409 /* SunD_categoryUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SunD_categoryUITests.m; sourceTree = "<group>"; };
 		6529664C1E99258D003E8409 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6529665B1E9932E2003E8409 /* NSString+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Helper.h"; sourceTree = "<group>"; };
+		6529665C1E9932E2003E8409 /* NSString+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Helper.m"; sourceTree = "<group>"; };
+		6529665E1E99339B003E8409 /* NSArray+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Helper.h"; sourceTree = "<group>"; };
+		6529665F1E99339B003E8409 /* NSArray+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Helper.m"; sourceTree = "<group>"; };
+		652966611E9933A8003E8409 /* NSDictionary+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Helper.h"; sourceTree = "<group>"; };
+		652966621E9933A9003E8409 /* NSDictionary+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Helper.m"; sourceTree = "<group>"; };
+		652966641E99C77B003E8409 /* UILabel+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+Helper.h"; sourceTree = "<group>"; };
+		652966651E99C77B003E8409 /* UILabel+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+Helper.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +115,14 @@
 			children = (
 				652966281E99258C003E8409 /* AppDelegate.h */,
 				652966291E99258C003E8409 /* AppDelegate.m */,
+				6529665B1E9932E2003E8409 /* NSString+Helper.h */,
+				6529665C1E9932E2003E8409 /* NSString+Helper.m */,
+				6529665E1E99339B003E8409 /* NSArray+Helper.h */,
+				6529665F1E99339B003E8409 /* NSArray+Helper.m */,
+				652966611E9933A8003E8409 /* NSDictionary+Helper.h */,
+				652966621E9933A9003E8409 /* NSDictionary+Helper.m */,
+				652966641E99C77B003E8409 /* UILabel+Helper.h */,
+				652966651E99C77B003E8409 /* UILabel+Helper.m */,
 				6529662B1E99258C003E8409 /* ViewController.h */,
 				6529662C1E99258C003E8409 /* ViewController.m */,
 				6529662E1E99258C003E8409 /* Main.storyboard */,
@@ -273,9 +293,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				652966631E9933A9003E8409 /* NSDictionary+Helper.m in Sources */,
 				6529662D1E99258C003E8409 /* ViewController.m in Sources */,
+				652966661E99C77B003E8409 /* UILabel+Helper.m in Sources */,
 				6529662A1E99258C003E8409 /* AppDelegate.m in Sources */,
 				652966271E99258C003E8409 /* main.m in Sources */,
+				6529665D1E9932E2003E8409 /* NSString+Helper.m in Sources */,
+				652966601E99339B003E8409 /* NSArray+Helper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +531,7 @@
 				652966511E99258D003E8409 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		652966521E99258D003E8409 /* Build configuration list for PBXNativeTarget "SunD_categoryTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +540,7 @@
 				652966541E99258D003E8409 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		652966551E99258D003E8409 /* Build configuration list for PBXNativeTarget "SunD_categoryUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +549,7 @@
 				652966571E99258D003E8409 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
